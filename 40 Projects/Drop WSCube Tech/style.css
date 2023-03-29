@@ -1,0 +1,15 @@
+.menubar{
+    width: 1170;
+    margin: auto;
+}
+
+.menuitems{
+    float: left;
+    background: yellowgreen;
+    padding: 25px 25px; 
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}

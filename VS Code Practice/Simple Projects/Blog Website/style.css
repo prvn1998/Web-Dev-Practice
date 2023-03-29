@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.main{
+    width: 600px;
+    height: auto;
+    padding: auto;
+    margin: auto;
+}
+
+.menu{
+    width: auto;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #c786c7;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date{
+    color: blue;
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.end{
+
+    width: auto;
+    height: 65px;
+    background-color: skyblue;
+}
+
+.text{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}

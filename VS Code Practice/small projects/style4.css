@@ -1,0 +1,18 @@
+.main{
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    border: 2px dashed blue;
+    outline-offset: 4px;
+    outline: 2px solid blue;
+}
+
+.main1{
+    margin: 10px;
+    padding: 10px;
+    color: red;
+    background-color: white;
+    border-radius: 20px;
+    width: 100px;
+    border-color: red;
+}

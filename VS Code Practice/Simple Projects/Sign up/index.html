@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="main">
+            <div class="signin"><h1>Sign Up</h1></div>
+            <div class="basicinfo">
+                <h3>1 Your Basic Info</h3>
+            <div class="basic_details">
+                <label for="Name">Name:</label><br>
+                <input type="text" id="Name" name="Name">
+                <br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+                <br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="Name">
+                <br>
+
+                <label>Age:</label><br>
+                <input type="radio" id="age" placeholder="age" name="age">
+                <label class="age">Under 13</label><br>
+                <input type="radio" id="age" placeholder="age" name="age">
+                <label class="age">Over 13</label>
+            </div>
+            </div>
+            <div class="your_profile">
+                <h3>2 Your Profile</h3>
+                <div class="basic_details">
+                    <label for="uoload">Upload Image:</label><br>
+                    <input type="file" id="upload" placeholder="upload">
+                    <br/>
+
+                    <label for="bio">Bio:</label><br>
+                    <textarea id="Bio" placeholder=""></textarea>
+                    <br/>
+
+                    <label for="Job role">Job Role:</label><br>
+                    <select id="courses">
+                        <optgroup label="Web">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JavaScript</option>
+                            <option>PHP</option>
+                        </optgroup>
+                        <optgroup label="Mobile">
+                            <option>Andriod</option>
+                            <option>Iphone</option>
+                            <option>Windows</option>
+                        </optgroup>
+                    </select>
+                    <br/>
+
+                    <label>Interest:</label>
+                    <br/>
+
+                    <input class="choose" type="checkbox" id="Development" name="Development">
+                    <label class="choose1" for="interest">Development</label>
+                    <br/>
+
+                    <input class="choose" type="checkbox" id="Design" name="Design">
+                    <label class="choose1" for="Design">Design</label>
+                    <br/>
+
+                    <input class="choose" type="checkbox" id="Business" name="Business">
+                    <label class="choose1" for="Business">Business</label>
+                    <br>
+
+                </div>   
+            </div>
+            <button type="button">Sign Up</button>
+        </div>
+    </form>
+</body>
+</html>

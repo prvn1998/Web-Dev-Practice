@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #34495e;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    word-wrap: break-word !important;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 100px;
+    font-family: 'Bree Serif', 'serif';
+}
+
+p{
+    text-align: center;
+}
+
+a {
+	color: #FFF;
+}
+
+#containor{
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #E64A19;
+    margin: 50px 0;
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: #E64A19;
+}
+
+nav a {
+    display: block;
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #000000;
+
+}
+
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+
+nav ul li:hover > ul{
+    display: inherit;
+}
+
+nav ul ul li{
+    width: 170px;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li{
+    position: relative;
+    top: 60ox;
+    left: 170px;
+}
+
+li > a::after{content: '+';}
+li > a:only-child::after{content: '';}

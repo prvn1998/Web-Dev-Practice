@@ -1,0 +1,119 @@
+html,body{
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Lato, sans-serif;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.pimg1{
+	background-image: url(image/image1.png);
+	min-height: 100%;
+}
+
+.pimg2{
+	background-image: url(image/image2.png);
+	min-height: 400px;
+}
+
+.pimg3{
+	background-image: url(image/image3.png);
+	min-height: 400px;
+}
+
+.pimg1, .pimg2, .pimg3{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.ptext1{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.textBg1{
+	background-color: #313534;
+	color: #fff;
+	padding: 20px;
+}
+
+.ptext2{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 45px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color:  #F7ECE5;
+	font-weight: bold;
+}
+
+.textBg2{
+	background-color: #79767624;
+	color: #fff;
+	padding: 20px;
+}
+
+.ptext3{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+
+.textBg3{
+	background-color: #79767624;
+	color: #fff;
+	padding: 20px;
+}
+
+.section1{
+	padding: 50px 80px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.section2{
+	padding: 50px 80px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.section3{
+	padding: 50px 80px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.section-light1{
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.section-light2{
+	background-color: black;
+	color: #666;
+}
+
+.section-light3{
+	background-color: black;
+	color: #666;
+}

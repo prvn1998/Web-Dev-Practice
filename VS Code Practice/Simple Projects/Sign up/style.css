@@ -1,0 +1,67 @@
+.main{
+    width: 500px;
+    height: 720px;
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+    background-color: #b5e3f4;
+}
+
+.signin{
+    text-align: center;
+}
+
+div .basicinfo h3{
+    padding-left: 50px;
+}
+
+h3::first-letter{
+    padding: 3px 8px;
+    background-color: #5fcf80;
+    border-radius: 100px;
+}
+
+label{
+    padding-left: 50px;
+}
+
+.age{
+    padding-left: 0px;
+}
+
+input[type="text"],
+input[type="password"], 
+input[type="email"],
+input[type="file"],
+textarea, select{
+    border: none;
+    background-color: #e8eeef;
+    outline: 0px;
+    margin-left: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+input[type="radio"]{
+        margin-left: 50px;
+}
+
+.choose{
+    margin-left: 50px;
+}
+
+.choose1{
+    padding-left: 0px;
+}
+
+.your_profile h3{
+    padding-left: 50px;
+}
+
+button{
+    padding: 12px 100px;
+    margin-left: 120px;
+    background-color: #5fcf80;
+    outline: navajowhite;
+}
+
